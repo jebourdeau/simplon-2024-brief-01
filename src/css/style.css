@@ -53,6 +53,27 @@ section.features .feature-container .feature {
   border-radius: 10px;
   box-sizing: border-box;
 }
+main > section.pricing {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+section.pricing > .pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+section.pricing .pricing-container .pricing {
+  flex-basis: calc(20% - 20px);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #0056b3;
+  color: white;
+}
 
 /* Media Queries */
 
